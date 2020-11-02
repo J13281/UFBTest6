@@ -36,7 +36,7 @@ namespace Serial6
             CompositionTarget.Rendering += CompositionTarget_Rendering;
         }
 
-        double wait = 1.0 / 240.0;
+        double wait = 60.0 / 1000.0;
         double next = Environment.TickCount;
 
         void CompositionTarget_Rendering(object sender, EventArgs e)
